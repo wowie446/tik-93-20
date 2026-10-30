@@ -1,0 +1,150 @@
+body{
+    background-image: url(listbgg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ol{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    background-color:rgb(171, 195, 84);
+    padding: 20px;
+}
+li{
+    background-color: palevioletred;
+    margin: 10px;
+}
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.Tugas.List {
+    background-color: rgb(255, 185, 208);
+    padding: 1px 5px;
+}
+
+.Tugas.List ol {
+    background-color: rgb(171, 195, 84);
+    list-style-type: upper-roman;
+    padding: 10px;
+}
+
+.Tugas.List ol li {
+    background-color: palevioletred;
+    margin: 3px 0;
+}
+
+.Tugas.List ol li.stroberi {
+    background-color: palevioletred;
+}
+
+.Tugas.List ul {
+    background-color: rgb(171, 195, 84);
+    padding: 10px;
+}
+
+.Tugas.List ul li {
+    background-color: palevioletred;
+    margin: 3px 0;
+    padding: 3px;
+}
+
+.Tugas.List .icon ul li {
+    background-color: palevioletred;
+}
+
+.Tugas.List .icon ul {
+    list-style: none;
+}
+
+.Tugas.List .icon ul li {
+    padding-left: 3px;
+}
+
+.Tugas.List .icon ul li i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.header{
+    background-color: #e3ffba;
+    padding: 20px;
+    text-align: center;
+}
+/* style pada topnav */
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+footer{
+    background-color: palevioletred;
+    padding: 10px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "war";
+    src: url(STS-93-20-KAYLA/AngelicWar.ttf);
+}
+@font-face {
+    font-family: "war";
+    src: url(STS-93-20-KAYLA/AngelicWar.ttf);
+}
+h6{
+    color: rgb(241, 101, 145);
+    text-align: center;
+    font-family: "war";
+    letter-spacing: 20px;
+}
+
+/* style pada topnav */
+.topnav {
+    display: flex;                /* Uses flexbox to line up items neatly */
+    background-color: palevioletred;
+    overflow: hidden;
+    width: 100%;                  /* Makes sure the nav bar spans the full width */
+}
+
+.topnav a {
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;            /* Optional: makes it pop more */
+}
+
+.topnav a:hover {
+    background-color: cornsilk;
+    color: brown;
+}
+@font-face {
+    font-family: "jambo";
+    src: url(DK\ Jambo.otf);
+}
+h3{
+    color: rgb(158, 40, 77);
+    text-align: center;
+    font-family: "jambo";
+    letter-spacing: 20px;
+}

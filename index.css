@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+footer{
+    background-color: palevioletred;
+    padding: 15px;
+    text-align: center;
+}
+/* style pada header */
+
+.header{
+    background-color: rgb(140, 175, 80);
+    padding: 20px;
+    text-align: center;
+}
+
+/* style pada topnav */
+.topnav {
+    display: flex;                /* Uses flexbox to line up items neatly */
+    background-color: palevioletred;
+    overflow: hidden;
+    width: 100%;                  /* Makes sure the nav bar spans the full width */
+}
+
+.topnav a {
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;            /* Optional: makes it pop more */
+}
+
+.topnav a:hover {
+    background-color: cornsilk;
+    color: brown;
+}
+
+/* style table */
+table,th,td{
+    border: solid 1px black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+th,td{
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(187, 231, 233);
+}
+
+tr:nth-child(1){
+    background-color: cadetblue;
+}
+
+tr:hover{
+    background-color: rgb(201, 193, 252);
+}
+
+/*Style pada List*/
+ol{
+    list-style-type: lower-alpha;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    background-color: antiquewhite;
+    border: 3px solid black;
+    padding: 15px 30px;
+    margin: 1cm;
+    list-style-position: inside;
+}
+ol li{
+    background-color: rgb(187, 231, 233);
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: justify;
+}
+ol li.stroberi{
+    background-color: rgb(255, 0, 0);
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+}

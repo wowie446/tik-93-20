@@ -1,0 +1,230 @@
+body{
+    background-image: url(listbgg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+/* style pada topnav */
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style footer */
+footer{
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px 0;
+    font-family: "Times New Roman";
+    color: #644345;
+}
+
+h1 {
+    background-color: #404d10;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: 30px;
+    margin: 15px 0 32px;
+    padding: 8px;
+}
+
+.nilai {
+    width: 99%;
+    margin: 0 auto 32px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: #fdf8ff;
+}
+
+.nilai th, .nilai td {
+    border: 1px solid #9b7e77;
+    padding: 10px 7px;
+    font-size: 18px;
+}
+
+.nilai th {
+    text-align: center;
+    font-weight: bold;
+    background-color: #9faa75;
+    color: #000000;
+}
+
+.nilai td {
+    background-color: #fbf8ec;
+}
+
+.nilai tr:nth-child(2) th {
+    background-color: #ffd0da;
+}
+
+.nilai tr:nth-child(odd) td {
+    background-color: #fbf8ec;
+}
+
+.nilai tr:nth-child(even) td {
+    background-color: #ffd0da;
+}
+
+.merge th,
+.merge td {
+    height: 36px;
+    background-color: #fbf8ec;
+}
+
+.merge tr:nth-child(2) th {
+    background-color: #ffd0da;
+}
+
+.merge tr:nth-child(4) th {
+    background-color: #ffd0da;
+}
+
+.merge tr:last-child th:nth-child(1),
+.merge tr:last-child th:nth-child(2),
+.merge tr:last-child th:nth-child(4),
+.merge tr:last-child th:nth-child(5),
+.merge tr:last-child th:nth-child(6) {
+    background-color: #ffc9df;
+}
+
+.nilai th:hover,
+.nilai td:hover {
+    background-color: #e8cad8 !important;
+    color: #000000;
+    transition: 0.2s;
+} 
+.header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+/* style pada topnav */
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style footer */
+footer{
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.table {
+    font-family: "Times New Roman", serif;
+    text-align: center;
+}
+
+.table table {
+    width: 290px;
+    height: 300px;
+    margin: 0 auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: palevioletred;
+}
+
+.table th {
+    border: 4px solid #000000;
+    color: #ffea00;
+    font-size: 34px;
+    font-weight: normal;
+    padding: 0;
+}
+
+.table th.ganti {
+    background-color: #9faa75;
+}
+
+.table th:hover {
+    background-color: #ffae00;
+    color: #61D0F);
+}
+
+footer{
+    background-color: palevioletred;
+    padding: 15px;
+    text-align: center;
+}
+/* style pada header */
+
+.header{
+    background-color: rgb(140, 175, 80);
+    padding: 20px;
+    text-align: center;
+}
+
+/* style pada topnav */
+.topnav {
+    display: flex;                /* Uses flexbox to line up items neatly */
+    background-color: palevioletred;
+    overflow: hidden;
+    width: 100%;                  /* Makes sure the nav bar spans the full width */
+}
+
+.topnav a {
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;            /* Optional: makes it pop more */
+}
+
+.topnav a:hover {
+    background-color: cornsilk;
+    color: brown;
+}
+@font-face {
+    font-family: "peace";
+    src: url(Angelic\ Peace.ttf);
+}
+p{
+    text-align: center;
+    font-family: "peace";
+    font-size: 30px;
+    color: rgb(244, 237, 239);
+}
